@@ -1,1 +1,143 @@
-bienvenue dans mon gite
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Le Repos des Méandres - Gîte à Saint-Jean-Saint-Maurice</title>
+<meta name="description" content="Le Repos des Méandres, charmant gîte médiéval à Saint-Jean-Saint-Maurice, en bord de Loire, accueille vos séjours au calme. Chiens admis." />
+<style>
+  body {
+    font-family: 'Georgia', serif;
+    background: #f9f6f0;
+    color: #3b4a2a;
+    margin: 20px;
+    line-height: 1.6;
+  }
+  header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  header h1 {
+    font-size: 2.8em;
+    color: #4a6a32;
+    margin-bottom: 5px;
+  }
+  header p {
+    font-style: italic;
+    color: #7a8c54;
+    font-size: 1.1em;
+  }
+  section {
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+    background: #e7e4d9;
+    padding: 25px 30px;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(70,70,50,0.2);
+  }
+  h2 {
+    color: #4a6a32;
+    border-bottom: 2px solid #7a8c54;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+  }
+  ul {
+    list-style-type: square;
+    margin-left: 20px;
+  }
+  .contact {
+    background: #d6d3bc;
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-size: 1.1em;
+    color: #3b4a2a;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #7a8c54;
+    margin-top: 50px;
+  }
+  /* Galerie photo */
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  .gallery img {
+    max-width: 45%;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  .gallery img:hover {
+    transform: scale(1.05);
+  }
+  @media (max-width:600px) {
+    body {
+      margin: 10px;
+    }
+    section {
+      padding: 20px;
+      margin-bottom: 30px;
+    }
+    .gallery img {
+      max-width: 100%;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Le Repos des Méandres</h1>
+  <p>Gîte au coeur d'un village médiéval à Saint-Jean-Saint-Maurice, bord de Loire</p>
+</header>
+
+<section>
+  <h2>Bienvenue</h2>
+  <p>Découvrez un havre de paix niché dans une maison de village médiévale. À quelques pas des sentiers de Saint-Jacques-de-Compostelle, au cœur d’un paysage enchanteur surplombant la Loire, le Repos des Méandres vous invite à un séjour tout en douceur et en sérénité.</p>
+</section>
+
+<section>
+  <h2>Le Gîte</h2>
+  <ul>
+    <li>3 chambres confortables avec lits en 140 cm</li>
+    <li>Cuisine entièrement équipée pour vos repas</li>
+    <li>Salon chaleureux pour vos moments de détente</li>
+    <li>Wi-Fi disponible</li>
+    <li>Chiens admis</li>
+    <li>Accès facile aux sentiers de randonnée et points de vue sur la Loire</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Galerie photos</h2>
+  <div class="gallery">
+    <img src="photo-facade.jpg" alt=" gîte Le Repos des Méandres" />
+    <img src="photo-salon.jpg" alt="Salon chaleureux du gîte" />
+    <img src="photo-cuisine.jpg" alt="Cuisine équipée" />
+    <img src="photo-loire.jpg" alt="Vue sur la Loire à proximité" />
+    <img src="photo-chambre.jpg" alt=Chambre" />
+  </div>
+</section>
+
+<section class="contact">
+  <h2>Contact</h2>
+  <p><strong>Isabelle Dommanget</strong></p>
+  <p>45 rue de l'échauguette 42155 Saint-Jean-Saint-Maurice, Loire</p>
+  <p>Téléphone : 06 15 32 38 85</p>
+  <p>Email : i0615323885@gmail.com</p>
+</section>
+
+<footer>
+  <p>Le Repos des Méandres – Votre pause nature et patrimoine en Loire</p>
+</footer>
+
+</body>
+</html>
